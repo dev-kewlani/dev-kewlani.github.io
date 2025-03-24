@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dev Kewlani | Quantitative Analyst | Trader | Modeler</title>
+    <title>Dev Kewlani | Quantitative Researcher | Trader</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
     <style>
@@ -213,10 +213,27 @@
         
         .profile-image {
             border-radius: 50%;
-            max-width: 250px;
+            max-width: 500px;
             width: auto;
             height: auto;
             border: 3px solid white;
+        }
+        
+        .project-category {
+            margin-bottom: 2rem;
+        }
+        
+        .project-category-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: var(--text);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.5rem;
+        }
+        
+        .certificate-card {
+            margin-bottom: 1.5rem;
         }
     </style>
 </head>
@@ -230,6 +247,7 @@
                 <div class="hidden md:flex items-center">
                     <a href="#about" class="nav-link">About</a>
                     <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#certifications" class="nav-link">Certifications</a>
                     <a href="#skills" class="nav-link">Skills</a>
                     <a href="#projects" class="nav-link">Projects</a>
                     <a href="#contact" class="nav-link">Contact</a>
@@ -247,6 +265,7 @@
                 <div class="flex flex-col space-y-3">
                     <a href="#about" class="px-3 py-2 rounded hover:bg-gray-100">About</a>
                     <a href="#experience" class="px-3 py-2 rounded hover:bg-gray-100">Experience</a>
+                    <a href="#certifications" class="px-3 py-2 rounded hover:bg-gray-100">Certifications</a>
                     <a href="#skills" class="px-3 py-2 rounded hover:bg-gray-100">Skills</a>
                     <a href="#projects" class="px-3 py-2 rounded hover:bg-gray-100">Projects</a>
                     <a href="#contact" class="px-3 py-2 rounded hover:bg-gray-100">Contact</a>
@@ -265,12 +284,12 @@
                     <div class="fade-in">
                         <span class="text-accent text-sm font-medium">Hello, I'm</span>
                         <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mt-2 mb-4">Dev Kewlani</h1>
-                        <h2 class="text-xl md:text-2xl text-gray-600 font-light mb-8">Quantitative Associate | Trader | Modeler</h2>
+                        <h2 class="text-xl md:text-2xl text-gray-600 font-light mb-8">Quantitative Researcher | Trader</h2>
                     </div>
                     
                     <div class="fade-in">
                         <p class="text-lg text-gray-700 mb-8 max-w-2xl">
-                            A quantitative professional with expertise in computer engineering, financial mathematics, and advanced data science. Specializing in time series analysis, volatility modeling, and portfolio optimization.
+                            Driven by curiosity in financial engineering, I am eager to apply my expertise in financial mathematics and data science to solve complex, real-world challenges at the intersection of quantitative finance and technology.
                         </p>
                     </div>
                     
@@ -289,74 +308,77 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="section bg-white" id="about">
+    <!-- Career Vision Section -->
+    <section class="section bg-white" id="career-vision">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
+            <h2 class="section-title">Career Vision</h2>
+            <div class="card p-8">
+                <p class="text-gray-700 mb-6">
+                    My career vision is centered around advancing the field of quantitative finance through innovative applications of machine learning and artificial intelligence. I aim to leverage my unique combination of computer engineering and financial mathematics expertise to develop models for portfolio optimization, risk management, and quantitative trading.
+                    By integrating modern AI methodologies with traditional financial challenges, I believe we can craft robust, adaptive investment strategies that can consistently generate alpha across a wide range of market conditions. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills & Expertise</h2>
             
-            <div class="grid md:grid-cols-2 gap-12">
-                <div>
-                    <h3 class="text-xl font-semibold mb-6">Academic Background</h3>
-                    
-                    <div class="space-y-8">
-                        <div class="card p-8">
-                            <div class="flex items-start">
-                                <div class="mr-6">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                                        <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998a12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h4 class="text-lg font-medium">Master of Financial Mathematics</h4>
-                                    <p class="text-gray-600">North Carolina State University</p>
-                                    <p class="text-gray-600">Expected December 2025</p>
-                                    <p class="text-gray-600 mt-1">GPA: 4.0/4.0</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="card p-8">
-                            <div class="flex items-start">
-                                <div class="mr-6">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                                        <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998a12.078 12.078 0 01.665-6.479L12 14z" />
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998a12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h4 class="text-lg font-medium">Bachelor of Engineering in Computer Engineering</h4>
-                                    <p class="text-gray-600">Thapar Institute of Engineering and Technology</p>
-                                    <p class="text-gray-600">June 2022</p>
-                                    <p class="text-gray-600 mt-1">GPA: 3.7/4.0</p>
-                                </div>
-                            </div>
-                        </div>
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="card p-8">
+                    <h3 class="text-lg font-medium mb-6 text-gray-800">Quantitative Methods</h3>
+                    <div class="flex flex-wrap">
+                        <div class="skill-tag">Stochastic Calculus</div>
+                        <div class="skill-tag">Monte Carlo Simulations</div>
+                        <div class="skill-tag">Statistical Inference</div>
+                        <div class="skill-tag">Bayesian Methods</div>
+                        <div class="skill-tag">Fixed Income Analysis</div>
+                        <div class="skill-tag">Portfolio Management</div>
+                        <div class="skill-tag">Risk Modeling</div>
+                        <div class="skill-tag">Options Pricing</div>
+                        <div class="skill-tag">Econometrics</div>
+                        <div class="skill-tag">Regression Analysis</div>
+                        <div class="skill-tag">Stochastic Processes</div>
                     </div>
                 </div>
                 
-                <div>
-                    <h3 class="text-xl font-semibold mb-6">My Journey</h3>
-                    
-                    <div class="card p-8">
-                        <p class="text-gray-700 mb-6">
-                            My professional journey began in the fast-paced world of commodities trading at <span class="font-medium">Futures First</span>, where I conducted market research and time series analysis on agricultural commodities. This experience sparked my passion for applying advanced analytical techniques to financial markets.
-                        </p>
-                        
-                        <p class="text-gray-700 mb-6">
-                            At <span class="font-medium">BlackRock</span>, I expanded my expertise by applying quantitative analytics to estimate and stress-test client portfolios. This role taught me the importance of rigorous risk management in institutional investment.
-                        </p>
-                        
-                        <p class="text-gray-700 mb-6">
-                            My time as a <span class="font-medium">Quantitative Trader at NX Block Trades</span> allowed me to design and implement algorithmic trading frameworks for options markets, achieving a Sharpe Ratio of 2.4 with a cumulative profit of 45% in backtesting. I initiated live trading with $500K, generating a return of 4.5% between February and April 2024. 
-                            During the Indian election results on June 3rd/4th, the strategy faced significant volatility, resulting in a 2% drawdown in a single day. In response, I swiftly re-optimized the model parameters to enhance risk management during turbulent periods. Even after transitioning to my Master's program, this refined strategy continues to be actively utilized.
-                        </p>
-                        
-                        <p class="text-gray-700">
-                            I'm excited to be joining <span class="font-medium">JP Morgan Chase & Co.</span> as a <span class="font-medium">Quantitative Associate Intern</span> for the upcoming summer in New York, where I'll continue to develop my skills in quantitative research while working with quants, technologists, and risk managers.
-                        </p>
+                <div class="card p-8">
+                    <h3 class="text-lg font-medium mb-6 text-gray-800">Data Science & Machine Learning</h3>
+                    <div class="flex flex-wrap">
+                        <div class="skill-tag">Feature Engineering</div>
+                        <div class="skill-tag">Time Series Analysis</div>
+                        <div class="skill-tag">Linear Regression and Generalized Linear Models</div>
+                        <div class="skill-tag">Bagging ang Boosting</div>
+                        <div class="skill-tag">SVM and Kernel Methods</div>
+                        <div class="skill-tag">Deep Learning (Applied)</div>
+                        <div class="skill-tag">Extreme Gradient Boosting</div>
+                        <div class="skill-tag">Multi-head Attention</div>
+                        <div class="skill-tag">Reinforcement Learning</div>
+                        <div class="skill-tag">Predictive Analytics</div>
+                        <div class="skill-tag">PyTorch</div>
+                    </div>
+                </div>
+                
+                <div class="card p-8">
+                    <h3 class="text-lg font-medium mb-6 text-gray-800">Technical Tools & Languages</h3>
+                    <div class="flex flex-wrap">
+                        <div class="skill-tag">Python</div>
+                        <div class="skill-tag">C++</div>
+                        <div class="skill-tag">SQL</div>
+                        <div class="skill-tag">Excel</div>
+                        <div class="skill-tag">Linux</div>
+                        <div class="skill-tag">Bloomberg</div>
+                        <div class="skill-tag">Blackrock Aladdin</div>
+                        <div class="skill-tag">PowerBI</div>
+                        <div class="skill-tag">Tableau</div>
+                        <div class="skill-tag">NumPy</div>
+                        <div class="skill-tag">Pandas</div>
+                        <div class="skill-tag">SciPy</div>
+                        <div class="skill-tag">scikit-learn</div>
+                        <div class="skill-tag">cvxpy</div>
+                        <div class="skill-tag">HyperOpt (Bayesian Parameter Optimization)</div>
                     </div>
                 </div>
             </div>
@@ -364,7 +386,7 @@
     </section>
 
     <!-- Experience Section -->
-    <section class="section" id="experience">
+    <section class="section bg-white" id="experience">
         <div class="container">
             <h2 class="section-title">Professional Experience</h2>
             
@@ -391,13 +413,15 @@
                         <h3 class="text-lg font-medium text-gray-800">Quantitative Trader</h3>
                         <p class="text-gray-600 mb-4">NX Block Trades, India</p>
                         <ul class="list-disc pl-5 text-gray-700 space-y-2 mt-3">
-                            <li>Designed a comprehensive algorithmic trading framework for Indian and US markets</li>
-                            <li>Developed a robust backtesting framework for strategies involving volatility ratios</li>
-                            <li>Achieved a Sharpe Ratio of 2.4 with 45% cumulative profit and -8% maximum drawdown in backtesting</li>
-                            <li>Implemented signal processing and order routing using interactive and market data web sockets</li>
+                            <li>Designed a quantitative trading framework for Indian indexes (Nifty and Banknifty).</li>
+                            <li>Developed a generalized backtesting framework for both single-legged and multi-legged strategies, including volatility ratio analysis and dynamic Greek hedging.</li>
+                            <li>Achieved a Sharpe Ratio of 2.4 with 45% cumulative profit and an 8% maximum drawdown in backtesting.</li>
+                            <li>Began developing a similar system for ES futures, processing raw multi-tick data and refining data-cleaning methods.</li>
+                            <li>Implemented signal processing and order routing using interactive and market data web sockets.</li>
                         </ul>
                     </div>
                 </div>
+
                 
                 <!-- BlackRock -->
                 <div class="timeline-item">
@@ -407,13 +431,14 @@
                         <h3 class="text-lg font-medium text-gray-800">Quantitative Analyst</h3>
                         <p class="text-gray-600 mb-4">BlackRock, India</p>
                         <ul class="list-disc pl-5 text-gray-700 space-y-2 mt-3">
-                            <li>Applied quantitative analytics to estimate and stress-test client portfolios</li>
-                            <li>Developed and refined analytics scripts, achieving 40% reduction in processing time</li>
-                            <li>Implemented factor-wise risk reporting for wealth management professionals overseeing $900B AUM</li>
-                            <li>Led strategic alliance with wealth management professionals</li>
+                            <li>Applied quantitative analytics to estimate and stress-test client portfolios.</li>
+                            <li>Developed and optimized analytics scripts for tail risk scenario analysis, achieving a 40% reduction in processing time.</li>
+                            <li>Implemented factor-wise risk reporting for clients using Aladdin Wealth.</li>
+                            <li>Created a suite of tools to measure portfolio sensitivity to benchmarks, including tracking error analysis (both ex-post and ex-ante).</li>
                         </ul>
                     </div>
                 </div>
+
                 
                 <!-- Futures First -->
                 <div class="timeline-item">
@@ -423,91 +448,73 @@
                         <h3 class="text-lg font-medium text-gray-800">Intern - Commodities Trader</h3>
                         <p class="text-gray-600 mb-4">Futures First, India</p>
                         <ul class="list-disc pl-5 text-gray-700 space-y-2 mt-3">
-                            <li>Conducted market research and time series analysis on wheat futures</li>
-                            <li>Trained autoregressive models to capture volatility dynamics of crude oil prices</li>
-                            <li>Enhanced forecasting accuracy for crude oil volatility from 60% to 65% using XGBoost</li>
+                            <li>Analyzed market dynamics of wheat, including supply-demand curves, and explored contango and backwardation effects.</li>
+                            <li>Conducted fundamental and technical research, applying time series analysis to wheat futures.</li>
+                            <li>Developed autoregressive models using GARCH and EGARCH to capture volatility dynamics.</li>
+                            <li>Paper-traded wheat futures from February 2022 to March 2023 before transitioning to live trading in April.</li>
+                            <li>Traded future spreads (lot size: 5) and flies (lot size: 10-15) to optimize risk management strategies.</li>
+                            <li>Navigated heightened market volatility during the Black Sea Corridor crisis, adapting risk management approaches accordingly.</li>
                         </ul>
                     </div>
-                </div>
-            </div>
-            
-            <div class="mt-16">
-                <h3 class="text-xl font-semibold mb-6">Career Vision</h3>
-                <div class="card p-8">
-                    <p class="text-gray-700 mb-6">
-                        My career vision is centered around advancing the field of quantitative finance through innovative applications of machine learning and artificial intelligence. I aim to leverage my unique combination of computer engineering and financial mathematics expertise to develop cutting-edge models for portfolio optimization, risk management, and algorithmic trading.
-                    </p>
-                    
-                    <p class="text-gray-700">
-                        I'm particularly passionate about volatility analysis and its role in strategic investment decisions. By applying modern AI techniques to traditional financial problems, I believe we can create more robust and adaptive investment strategies that generate consistent alpha across diverse market conditions.
-                    </p>
-                </div>
+                </div>                
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section class="section bg-white" id="skills">
+    <!-- Certifications Section -->
+    <section class="section" id="certifications">
         <div class="container">
-            <h2 class="section-title">Technical Skills & Expertise</h2>
+            <h2 class="section-title">Certifications</h2>
             
-            <div class="grid md:grid-cols-3 gap-10">
-                <div class="card p-8">
-                    <h3 class="text-lg font-medium mb-6 text-gray-800">Quantitative Methods & Analytics</h3>
-                    <div class="flex flex-wrap">
-                        <div class="skill-tag">Stochastic Calculus</div>
-                        <div class="skill-tag">Monte Carlo Simulations</div>
-                        <div class="skill-tag">Statistical Inference</div>
-                        <div class="skill-tag">Bayesian Methods</div>
-                        <div class="skill-tag">Fixed Income Analysis</div>
-                        <div class="skill-tag">Portfolio Management</div>
-                        <div class="skill-tag">Risk Modeling</div>
-                        <div class="skill-tag">Options Pricing</div>
-                    </div>
+            <div class="grid md:grid-cols-2 gap-10">
+                 <!-- CFA Program Level I -->
+                 <div class="card p-8 certificate-card">
+                    <h3 class="text-lg font-medium text-gray-800 mb-2">CFA Program Level I</h3>
+                    <p class="text-gray-600 mb-1">CFA Institute</p>
+                    <p class="text-gray-600 mb-1">Issued: Apr 2024</p>
+                    <p class="text-gray-600 mb-4">Credential ID: 100179590</p>
+                    <a href="https://credentials.cfainstitute.org/1777b36c-8fec-4644-960b-a373ae746420#acc.uVmviszn" class="btn btn-outline" target="_blank">Show Credential</a>
+                </div>
+
+                <!-- JPMorgan Chase & Co. Certification -->
+                <div class="card p-8 certificate-card">
+                    <h3 class="text-lg font-medium text-gray-800 mb-2">JPMorgan Chase & Co. - Quantitative Research Job Simulation</h3>
+                    <p class="text-gray-600 mb-1">Forage – Quantitative Research Job Simulation</p>
+                    <p class="text-gray-600 mb-1">Issued: Feb 2025</p>
+                    <p class="text-gray-600 mb-4">Credential ID: AJN2MBaYqnZbKGEzL</p>
+                    <a href="JPMC_Forage.pdf" class="btn btn-outline" target="_blank">Show Credential</a>
                 </div>
                 
-                <div class="card p-8">
-                    <h3 class="text-lg font-medium mb-6 text-gray-800">Data Science & Machine Learning</h3>
-                    <div class="flex flex-wrap">
-                        <div class="skill-tag">Time Series Analysis</div>
-                        <div class="skill-tag">Transformers</div>
-                        <div class="skill-tag">Multi-head Attention</div>
-                        <div class="skill-tag">Deep Reinforcement Learning</div>
-                        <div class="skill-tag">Predictive Analytics</div>
-                        <div class="skill-tag">XGBoost</div>
-                        <div class="skill-tag">PyTorch</div>
-                        <div class="skill-tag">TensorFlow</div>
-                    </div>
+                <!-- Akuna Capital Options 101 -->
+                <div class="card p-8 certificate-card">
+                    <h3 class="text-lg font-medium text-gray-800 mb-2">Akuna Capital Options 101</h3>
+                    <p class="text-gray-600 mb-1">Akuna Capital</p>
+                    <p class="text-gray-600 mb-1">Issued: Nov 2024</p>
+                    <p class="text-gray-600 mb-4">Credential ID: cert_vv2gw3jd</p>
+                    <a href="Akuna101.pdf" class="btn btn-outline" target="_blank">Show Credential</a>
                 </div>
                 
-                <div class="card p-8">
-                    <h3 class="text-lg font-medium mb-6 text-gray-800">Technical Tools & Languages</h3>
-                    <div class="flex flex-wrap">
-                        <div class="skill-tag">Python</div>
-                        <div class="skill-tag">SQL</div>
-                        <div class="skill-tag">Excel</div>
-                        <div class="skill-tag">Unix</div>
-                        <div class="skill-tag">Bloomberg</div>
-                        <div class="skill-tag">Blackrock Aladdin</div>
-                        <div class="skill-tag">NumPy</div>
-                        <div class="skill-tag">Pandas</div>
-                        <div class="skill-tag">SciPy</div>
-                        <div class="skill-tag">scikit-learn</div>
-                        <div class="skill-tag">cvxpy</div>
-                        <div class="skill-tag">HyperOpt</div>
-                    </div>
+                <!-- Akuna Capital Options 201 -->
+                <div class="card p-8 certificate-card">
+                    <h3 class="text-lg font-medium text-gray-800 mb-2">Akuna Capital Options 201</h3>
+                    <p class="text-gray-600 mb-1">Akuna Capital</p>
+                    <p class="text-gray-600 mb-1">Issued: Nov 2024</p>
+                    <p class="text-gray-600 mb-4">Credential ID: 10170255</p>
+                    <a href="Akuna201.pdf" class="btn btn-outline" target="_blank">Show Credential</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section class="section" id="projects">
+    <section class="section bg-white" id="projects">
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
-            
-            <div class="space-y-14">
-                <!-- AlphaPortfolio Project -->
+
+            <!-- Portfolio Optimization Projects -->
+            <div class="project-category">
+                <h3 class="project-category-title">Portfolio Modeling and Optimization</h3>
+
                 <div class="card p-8">
                     <div class="mb-6">
                         <span class="inline-block px-2 py-1 text-xs font-medium bg-gray-200 text-gray-700 rounded">Deep Learning</span>
@@ -516,28 +523,63 @@
                     <h3 class="text-xl font-medium mb-4 text-gray-800">AlphaPortfolio: Portfolio Optimization Using Deep RL</h3>
                     
                     <p class="text-gray-700 mb-6">
-                        A groundbreaking approach to portfolio optimization that integrates transformer-based Sequence Representation Extraction Module with a Cross-Asset Attention Network to capture both temporal dynamics and cross-asset interdependencies.
+                        An innovative approach to portfolio optimization that integrates a transformer-based sequence extraction module with a cross-asset attention network, capturing both temporal dynamics and cross-asset interdependencies.
                     </p>
                     
                     <h4 class="text-md font-medium mb-3 text-gray-800">Key Achievements:</h4>
                     <ul class="list-disc pl-5 mb-6 text-gray-700 space-y-2">
-                        <li>Developed a deep reinforcement learning framework that directly optimizes the Sharpe ratio (~1.7 out-of-sample)</li>
-                        <li>Engineered a sliding-window data pipeline for multi-step (monthly) rebalancing</li>
-                        <li>Implemented an RL training loop with delayed reward mechanisms</li>
-                        <li>Generated 13% returns on out-of-sample data (2021-2024)</li>
+                        <li>Led a team of 4 as a Financial Mathematics Ambassador to develop the portfolio optimization framework.</li>
+                        <li>Built a deep reinforcement learning model that directly optimizes the Sharpe ratio (achieving ~1.7 out-of-sample).</li>
+                        <li>Engineered a sliding-window data pipeline for multi-step (monthly) rebalancing.</li>
+                        <li>Implemented an RL training loop with delayed reward mechanisms to improve convergence.</li>
+                        <li>Achieved 13% returns on out-of-sample data from 2021 to 2024.</li>
                     </ul>
                     
                     <div class="flex flex-wrap mt-4">
+                        <div class="skill-tag">Portfolio Optimization</div>
                         <div class="skill-tag">PyTorch</div>
-                        <div class="skill-tag">TensorFlow</div>
                         <div class="skill-tag">Reinforcement Learning</div>
                         <div class="skill-tag">Transformers</div>
                         <div class="skill-tag">Time Series Analysis</div>
+                        <div class="skill-tag">Project Management</div>
+                        <div class="skill-tag">Leadership</div>
                     </div>
                 </div>
-                
-                <!-- Asset Allocation Project -->
+
                 <div class="card p-8">
+                    <div class="mb-6">
+                        <span class="inline-block px-2 py-1 text-xs font-medium bg-gray-200 text-gray-700 rounded">Market Anomalies</span>
+                    </div>
+                    <h3 class="text-xl font-medium mb-4 text-gray-800">Pure Momentum: Behavioral Arbitrage in Cryptocurrency Markets</h3>
+                    <p class="text-gray-700 mb-6">
+                        A quantitative trading strategy exploiting the "Pure Momentum" effect in cryptocurrency markets, where investors systematically respond to changes in reported returns that are unrelated to new information, creating predictable price patterns.
+                    </p>
+                    <h4 class="text-md font-medium mb-3 text-gray-800">Key Achievements:</h4>
+                    <ul class="list-disc pl-5 mb-6 text-gray-700 space-y-2">
+                        <li>Developed a data-driven research pipeline to empirically validate the lag-24 effect across multiple cryptocurrencies.</li>
+                        <li>Implemented a high-frequency trading strategy that capitalizes on the negative correlation between current returns and lagged-24 hour returns.</li>
+                        <li>Created a statistical framework to dynamically identify optimal lag periods and correlation strengths across market conditions.</li>
+                        <li>Engineered an hourly rebalancing system with advanced position sizing based on signal strength.</li>
+                        <li>Achieved annualized returns of 250%+ with a Sharpe ratio of 3.2 before transaction costs.</li>
+                        <li>Analysis showed that spreads on cryptocurrencies (0.5-1% based on the currency) and transaction costs (approximately 1%) significantly reduced profitability, confirming the paper's findings about implementation challenges.</li>
+                    </ul>
+                    <div class="flex flex-wrap mt-4">
+                        <div class="skill-tag">Behavioral Finance</div>
+                        <div class="skill-tag">Statistical Arbitrage</div>
+                        <div class="skill-tag">Market Microstructure</div>
+                        <div class="skill-tag">Python</div>
+                        <div class="skill-tag">QuantConnect</div>
+                        <div class="skill-tag">Time Series Analysis</div>
+                    </div>
+                </div>
+
+
+            </div>
+            
+            <!-- Options Projects -->
+            <div class="project-category">
+                <h3 class="project-category-title">Options</h3>
+                <div class="card p-8 mb-10">
                     <div class="mb-6">
                         <span class="inline-block px-2 py-1 text-xs font-medium bg-gray-200 text-gray-700 rounded">Risk Management</span>
                     </div>
@@ -564,9 +606,12 @@
                         <div class="skill-tag">Risk Management</div>
                     </div>
                 </div>
-                
-                <!-- Loss Given Default Project -->
-                <div class="card p-8">
+            </div>
+
+            <!-- Risk Projects -->
+            <div class="project-category">
+                <h3 class="project-category-title">Risk</h3>
+                <div class="card p-8 mb-10">
                     <div class="mb-6">
                         <span class="inline-block px-2 py-1 text-xs font-medium bg-gray-200 text-gray-700 rounded">Credit Risk</span>
                     </div>
@@ -590,6 +635,52 @@
                         <div class="skill-tag">Linear Regression</div>
                         <div class="skill-tag">SHAP Values</div>
                         <div class="skill-tag">Credit Risk Modeling</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section (Academic Background) -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">Academic Background</h2>
+            
+            <div class="space-y-8">
+                <div class="card p-8">
+                    <div class="flex items-start">
+                        <div class="mr-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998a12.078 12.078 0 01.665-6.479L12 14z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998a12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-medium">Master of Financial Mathematics</h4>
+                            <p class="text-gray-600">North Carolina State University</p>
+                            <p class="text-gray-600">Expected December 2025</p>
+                            <p class="text-gray-600 mt-1">GPA: 4.0/4.0</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card p-8">
+                    <div class="flex items-start">
+                        <div class="mr-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998a12.078 12.078 0 01.665-6.479L12 14z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998a12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-medium">Bachelor of Engineering in Computer Engineering</h4>
+                            <p class="text-gray-600">Thapar Institute of Engineering and Technology</p>
+                            <p class="text-gray-600">June 2022</p>
+                            <p class="text-gray-600 mt-1">GPA: 3.7/4.0</p>
+                        </div>
                     </div>
                 </div>
             </div>
